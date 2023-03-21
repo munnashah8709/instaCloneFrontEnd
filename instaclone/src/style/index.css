@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.cantained{
+   margin: 100px 0px 0px 400px;
+   align-content: center;
+   display: flex;
+   height: 400px;
+   width:600px;
+   background-color: aqua;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cantained {
+        margin: 0px 0px 0px 0px;
+        align-content: center;
+    }
+  }
+.col-5{
+    width: 300px;
+    height: 400px;
+    background: url("../image/homeImage.jpg");
+}
+.col-6{
+    width: 300px;
+    height: 400px;
+    background-color:cadetblue;
+}
+.cont{
+    padding: 20px;
+    margin-top: 90px;
+    align-content: center;
+}
+
+.btn{
+    margin-left: 40%;
+    align-content: center;
+    border-radius: 10px;
+}
+.aaaa{
+    color: white;
+    margin-left: 43px;
+    margin-top: -34px;
+  }
